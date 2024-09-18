@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/anjalichaudhary/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Full-stack+web+developer;+5%2B+years+of+coding+experience&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7FF&vCenter=true&pause=1000&size=22" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Full-stack+web+developer;+6%2B+years+of+coding+experience&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7FF&vCenter=true&pause=1000&size=22" /></a>
 </p>
 
 <br/>
