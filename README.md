@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/anjalichaudhary">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=520&height=45&color=36BCF7&lines=I+build+AI+agents+that+teach.;Frontier+LLMs+%E2%86%92+products+people+learn+from.;Clean%2C+scalable+systems+by+default.;Full-stack+depth%2C+AI-native+ambition." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=520&height=45&color=36BCF7&lines=I+build+AI+agents+that+teach.; Frontier+LLMs+%E2%86%92+products+people+learn+from.;Clean%2C+scalable+systems+by+default.;Full-stack+depth%2C+AI-native+ambition." />
   </a>
 </p>
 
