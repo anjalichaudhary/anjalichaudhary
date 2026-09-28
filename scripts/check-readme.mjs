@@ -19,20 +19,48 @@ export function extractRefs(markdown) {
 
 const UNCHECKABLE_LINKS = /^https:\/\/(www\.)?linkedin\.com\//;
 
+// Wait before each retry, so a brief outage or rate limit on a badge host doesn't fail the run.
+// Only failures that can recover are retried; a 404 or a wrong content type fails at once.
+const RETRY_WAITS_MS = [2000, 6000];
+export const isRetryable = (status) => status === 408 || status === 429 || status >= 500;
+
+class LinkError extends Error {
+  constructor(message, retry) {
+    super(message);
+    this.retry = retry;
+  }
+}
+
 async function checkRemote({ url, isImage }) {
   if (!isImage && UNCHECKABLE_LINKS.test(url)) return null;
-  for (let attempt = 1; ; attempt++) {
+  for (let attempt = 0; ; attempt++) {
     try {
       const res = await fetch(url, { redirect: 'follow', headers: { 'user-agent': 'check-readme' }, signal: AbortSignal.timeout(20_000) });
       await res.body?.cancel();
       const type = res.headers.get('content-type') ?? '';
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      if (isImage && !type.startsWith('image/')) throw new Error(`expected an image, got ${type || 'no content-type'}`);
+      if (!res.ok) throw new LinkError(`HTTP ${res.status}`, isRetryable(res.status));
+      if (isImage && !type.startsWith('image/')) throw new LinkError(`expected an image, got ${type || 'no content-type'}`, false);
       return null;
     } catch (err) {
-      if (attempt === 2) return `${url} → ${err.cause?.message ?? err.message}`;
+      // Network errors and timeouts aren't LinkErrors, and are worth another try.
+      const retry = err instanceof LinkError ? err.retry : true;
+      if (!retry || attempt === RETRY_WAITS_MS.length) return `${url} → ${err.cause?.message ?? err.message}`;
+      await new Promise((resolve) => setTimeout(resolve, RETRY_WAITS_MS[attempt]));
     }
   }
+}
+
+// A few requests at a time, results in README order.
+async function mapLimit(items, limit, fn) {
+  const out = new Array(items.length);
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (next < items.length) {
+      const i = next++;
+      out[i] = await fn(items[i]);
+    }
+  }));
+  return out;
 }
 
 async function checkLocal({ url }, baseDir) {
@@ -48,11 +76,8 @@ async function checkLocal({ url }, baseDir) {
 async function main() {
   const file = process.argv[2] ?? 'README.md';
   const refs = extractRefs(await readFile(file, 'utf8'));
-  const failures = [];
-  for (const ref of refs) {
-    const failure = /^https?:\/\//.test(ref.url) ? await checkRemote(ref) : await checkLocal(ref, dirname(file));
-    if (failure) failures.push(failure);
-  }
+  const results = await mapLimit(refs, 6, (ref) => (/^https?:\/\//.test(ref.url) ? checkRemote(ref) : checkLocal(ref, dirname(file))));
+  const failures = results.filter(Boolean);
   console.log(`${refs.length - failures.length}/${refs.length} links and images OK in ${file}`);
   if (failures.length) {
     console.error(failures.map((f) => `  ✗ ${f}`).join('\n'));

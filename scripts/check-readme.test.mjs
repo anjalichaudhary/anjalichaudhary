@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { extractRefs } from './check-readme.mjs';
+import { extractRefs, isRetryable } from './check-readme.mjs';
 
 test('extractRefs finds markdown and HTML refs, marks images, and skips comments and code', () => {
   const md = [
@@ -17,4 +17,9 @@ test('extractRefs finds markdown and HTML refs, marks images, and skips comments
     { url: 'assets/x.svg', isImage: true },
     { url: 'assets/x-dark.svg', isImage: true },
   ]);
+});
+
+test('only failures that can recover are retried', () => {
+  for (const status of [408, 429, 500, 502, 503]) assert.equal(isRetryable(status), true, String(status));
+  for (const status of [400, 403, 404, 410]) assert.equal(isRetryable(status), false, String(status));
 });

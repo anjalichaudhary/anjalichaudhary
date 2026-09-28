@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title">
+<title id="title">2024–now · the AI teacher. The AI teacher, built across my lead and principal years. Its board work is better than mine ever was.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+</style>
+<defs><clipPath id="screen"><rect x="1" y="36" width="858" height="299" rx="9"/></clipPath>
+<clipPath id="cardclip"><rect x="24" y="80" width="812" height="172" rx="10"/></clipPath>
+<clipPath id="stage"><rect width="288" height="152" rx="8"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="859" height="335" rx="10" fill="#0D1117" stroke="#30363D"/>
+<path d="M0.5 36V10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10V36z" fill="#161B22"/>
+<circle cx="20" cy="18" r="6" fill="#FF5F57"/><circle cx="40" cy="18" r="6" fill="#FEBC2E"/><circle cx="60" cy="18" r="6" fill="#28C840"/>
+<text x="430" y="22" text-anchor="middle" fill="#8D96A0" font-size="12px">anjali — career.vhs — zsh</text>
+<g clip-path="url(#screen)">
+<text x="24" y="62" font-size="13px" fill="#3FB950">anjali@profile:~$ </text><text x="164.94" y="62" font-size="13px" fill="#E6EDF3">anjali --rewind --scene 2</text>
+<text x="836" y="62" text-anchor="end" font-size="13px" font-weight="800" fill="#E6EDF3" letter-spacing="1">❚❚ PAUSED · 2/11</text>
+<rect x="24" y="80" width="812" height="172" rx="10" fill="#161B22" stroke="#30363D"/>
+<g clip-path="url(#cardclip)"><g opacity="1">
+<rect x="36" y="92" width="288" height="152" rx="8" fill="#D29922" fill-opacity=".06" stroke="#D29922" stroke-opacity=".25"/>
+<g transform="translate(36 92)" clip-path="url(#stage)">
+<text x="10" y="15" font-size="9.5px" fill="#D29922" font-weight="700">▸ the AI teacher</text>
+
+<rect x="8" y="24" width="176" height="76" rx="4" fill="#12261B" stroke="#8B5E34" stroke-width="3"/>
+<text x="18" y="44" font-size="10px" fill="#E6EDF3">f(n) = n × f(n-1)</text>
+<text x="18" y="63" font-size="10px" fill="#E6EDF3">f(0) = 1</text><text x="76" y="63" font-size="9px" fill="#D29922">← don&#39;t skip this</text>
+<text x="18" y="86" font-size="10px" fill="#3FB950">✓ recursion that ends</text>
+<g transform="translate(206 26)">
+<path d="M22 0l22 7-22 7-22-7z" fill="#D29922"/><path d="M40 8v10" stroke="#D29922" stroke-width="2"/>
+<rect x="6" y="14" width="32" height="26" rx="7" fill="#161B22" stroke="#E6EDF3" stroke-width="2.5"/>
+<rect class="i blink" x="13" y="22" width="5" height="7" rx="2" fill="#D29922"/><rect class="i blink" x="26" y="22" width="5" height="7" rx="2" fill="#D29922"/>
+<path d="M16 34q6 4 12 0" fill="none" stroke="#E6EDF3" stroke-width="2" stroke-linecap="round"/>
+<rect x="10" y="43" width="24" height="30" rx="5" fill="#161B22" stroke="#E6EDF3" stroke-width="2.5"/>
+<path class="i point" d="M10 52L-16 36" stroke="#E6EDF3" stroke-width="3" stroke-linecap="round"/>
+<path d="M16 73v10M28 73v10" stroke="#E6EDF3" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<circle cx="30" cy="118" r="7" fill="none" stroke="#E6EDF3" stroke-width="2.5"/><path d="M18 144a12 12 0 0 1 24 0" fill="none" stroke="#E6EDF3" stroke-width="2.5"/>
+<path d="M38 122l8-16" stroke="#E6EDF3" stroke-width="2.5" stroke-linecap="round" opacity="1"/>
+<g opacity="1"><rect x="54" y="102" width="154.5" height="18.5" rx="9.25" fill="#E6EDF3"/><text x="131.25" y="115" font-size="9.5px" fill="#0D1117" text-anchor="middle" font-weight="700">can you explain it again?</text></g>
+<g opacity="1"><rect x="126" y="128" width="154.5" height="18.5" rx="9.25" fill="#D29922"/><text x="203.25" y="141" font-size="9.5px" fill="#0D1117" text-anchor="middle" font-weight="700">sure, slower this time :)</text></g>
+</g>
+<text x="340" y="112" font-size="22px" font-weight="800" fill="#D29922">2024–now</text>
+<text x="455.92" y="111" font-size="12px" fill="#8D96A0">@ Great Learning</text>
+<text x="340" y="136" font-size="15px" font-weight="700" fill="#E6EDF3">lead → principal software engineer</text>
+<text x="340" y="162" font-size="13px" fill="#E6EDF3">The AI teacher, built across my lead and principal years.</text>
+<text x="340" y="182" font-size="13px" fill="#E6EDF3">Its board work is better than mine ever was.</text>
+<rect x="340" y="214" width="82.2" height="20" rx="10" fill="#D29922" fill-opacity=".14" stroke="#D29922" stroke-opacity=".5"/><text x="381.1" y="228" text-anchor="middle" font-size="11px" fill="#D29922">AI teacher</text><rect x="428.2" y="214" width="121.92" height="20" rx="10" fill="#D29922" fill-opacity=".14" stroke="#D29922" stroke-opacity=".5"/><text x="489.16" y="228" text-anchor="middle" font-size="11px" fill="#D29922">lead → principal</text>
+</g></g>
+<line x1="90" x2="770" y1="292" y2="292" stroke="#30363D" stroke-width="3"/>
+<circle cx="90" cy="292" r="5" fill="#30363D"/><circle cx="203.33" cy="292" r="5" fill="#30363D"/><circle cx="316.67" cy="292" r="5" fill="#30363D"/><circle cx="430" cy="292" r="5" fill="#30363D"/><circle cx="543.33" cy="292" r="5" fill="#30363D"/><circle cx="656.67" cy="292" r="5" fill="#30363D"/><circle cx="770" cy="292" r="5" fill="#30363D"/>
+<circle cx="770" cy="292" r="7" fill="#D29922"/>
+<text x="90" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2017</text><text x="203.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2018</text><text x="316.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2019</text><text x="430" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2020</text><text x="543.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2021</text><text x="656.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2024</text><text x="770" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">now</text>
+<g transform="translate(770 0)"><path d="M-7 272h14l-7 9z" fill="#E6EDF3"/><line x1="0" x2="0" y1="281" y2="302" stroke="#E6EDF3" stroke-width="1.5" opacity=".7"/></g>
+</g>
+</svg>

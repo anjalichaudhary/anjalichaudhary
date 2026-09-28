@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title">
+<title id="title">2024–26 · the course-aware mentor. Spearheaded course-level, context-aware AI mentors that read the course, video subtitles and assignment metadata. Negative learner feedback: −36% across 100K+ interactions.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+</style>
+<defs><clipPath id="screen"><rect x="1" y="36" width="858" height="299" rx="9"/></clipPath>
+<clipPath id="cardclip"><rect x="24" y="80" width="812" height="172" rx="10"/></clipPath>
+<clipPath id="stage"><rect width="288" height="152" rx="8"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="859" height="335" rx="10" fill="#0D1117" stroke="#30363D"/>
+<path d="M0.5 36V10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10V36z" fill="#161B22"/>
+<circle cx="20" cy="18" r="6" fill="#FF5F57"/><circle cx="40" cy="18" r="6" fill="#FEBC2E"/><circle cx="60" cy="18" r="6" fill="#28C840"/>
+<text x="430" y="22" text-anchor="middle" fill="#8D96A0" font-size="12px">anjali — career.vhs — zsh</text>
+<g clip-path="url(#screen)">
+<text x="24" y="62" font-size="13px" fill="#3FB950">anjali@profile:~$ </text><text x="164.94" y="62" font-size="13px" fill="#E6EDF3">anjali --rewind --scene 3</text>
+<text x="836" y="62" text-anchor="end" font-size="13px" font-weight="800" fill="#E6EDF3" letter-spacing="1">❚❚ PAUSED · 3/11</text>
+<rect x="24" y="80" width="812" height="172" rx="10" fill="#161B22" stroke="#30363D"/>
+<g clip-path="url(#cardclip)"><g opacity="1">
+<rect x="36" y="92" width="288" height="152" rx="8" fill="#3FB950" fill-opacity=".06" stroke="#3FB950" stroke-opacity=".25"/>
+<g transform="translate(36 92)" clip-path="url(#stage)">
+<text x="10" y="15" font-size="9.5px" fill="#3FB950" font-weight="700">▸ the course-aware mentor</text>
+
+<g><rect x="8" y="26" width="96" height="20" rx="4" fill="#161B22" stroke="#E6EDF3" stroke-width="1.5"/><text x="56" y="40" font-size="9px" fill="#E6EDF3" text-anchor="middle">▶ lecture video</text></g><g><rect x="8" y="54" width="96" height="20" rx="4" fill="#161B22" stroke="#E6EDF3" stroke-width="1.5"/><text x="56" y="68" font-size="9px" fill="#E6EDF3" text-anchor="middle">CC subtitles</text></g><g><rect x="8" y="82" width="96" height="20" rx="4" fill="#161B22" stroke="#E6EDF3" stroke-width="1.5"/><text x="56" y="96" font-size="9px" fill="#E6EDF3" text-anchor="middle">assignment info</text></g>
+<circle cx="146" cy="61" r="3.5" fill="#3FB950" opacity="0"/><circle cx="146" cy="61" r="3.5" fill="#3FB950" opacity="0"/><circle cx="146" cy="61" r="3.5" fill="#3FB950" opacity="0"/>
+<rect x="146" y="34" width="134" height="54" rx="12" fill="#161B22" stroke="#3FB950" stroke-width="2"/><path d="M262 88l6 10-16-10" fill="#3FB950"/>
+<text x="213" y="50" font-size="9px" fill="#3FB950" text-anchor="middle" font-weight="800">AI mentor</text>
+<circle cx="190" cy="66" r="3.5" fill="#3FB950" opacity="0"/><circle cx="204" cy="66" r="3.5" fill="#3FB950" opacity="0"/><circle cx="218" cy="66" r="3.5" fill="#3FB950" opacity="0"/>
+<text x="213" y="70" font-size="9px" fill="#E6EDF3" text-anchor="middle" font-weight="700">an answer, in context</text>
+<text x="8" y="122" font-size="8.5px" fill="#8D96A0">negative learner feedback</text>
+<rect x="8" y="128" width="190" height="10" rx="5" fill="#484F58"/>
+<rect x="8" y="128" width="122" height="10" rx="5" fill="#F85149"/>
+<text x="208" y="138" font-size="14px" fill="#3FB950" font-weight="800">−36%</text>
+<text x="280" y="122" font-size="8.5px" fill="#8D96A0" text-anchor="end">100K+ interactions</text>
+</g>
+<text x="340" y="112" font-size="22px" font-weight="800" fill="#3FB950">2024–26</text>
+<text x="442.68" y="111" font-size="12px" fill="#8D96A0">@ Great Learning</text>
+<text x="340" y="136" font-size="15px" font-weight="700" fill="#E6EDF3">lead software engineer</text>
+<text x="340" y="162" font-size="13px" fill="#E6EDF3">Spearheaded course-level, context-aware AI mentors that</text>
+<text x="340" y="182" font-size="13px" fill="#E6EDF3">read the course, video subtitles and assignment metadata.</text>
+<text x="340" y="202" font-size="13px" fill="#E6EDF3">Negative learner feedback: −36% across 100K+ interactions.</text>
+<rect x="340" y="214" width="82.2" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="381.1" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">AI mentors</text><rect x="428.2" y="214" width="102.06" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="479.23" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">context-aware</text><rect x="536.26" y="214" width="155.02" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="613.77" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">personalized learning</text>
+</g></g>
+<line x1="90" x2="770" y1="292" y2="292" stroke="#30363D" stroke-width="3"/>
+<circle cx="90" cy="292" r="5" fill="#30363D"/><circle cx="203.33" cy="292" r="5" fill="#30363D"/><circle cx="316.67" cy="292" r="5" fill="#30363D"/><circle cx="430" cy="292" r="5" fill="#30363D"/><circle cx="543.33" cy="292" r="5" fill="#30363D"/><circle cx="656.67" cy="292" r="5" fill="#30363D"/><circle cx="770" cy="292" r="5" fill="#30363D"/>
+<circle cx="656.67" cy="292" r="7" fill="#3FB950"/>
+<text x="90" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2017</text><text x="203.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2018</text><text x="316.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2019</text><text x="430" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2020</text><text x="543.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2021</text><text x="656.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2024</text><text x="770" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">now</text>
+<g transform="translate(656.67 0)"><path d="M-7 272h14l-7 9z" fill="#E6EDF3"/><line x1="0" x2="0" y1="281" y2="302" stroke="#E6EDF3" stroke-width="1.5" opacity=".7"/></g>
+</g>
+</svg>

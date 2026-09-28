@@ -1,4 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title" aria-describedby="desc">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-72ILYPBQRVo7jaNVF5jXyhIAKtF63qN4YPeJ63aAwRM='; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>anjali --rewind</title>
+<meta name="description" content="Anjali Chaudhary's career on a VHS tape: rewind from principal engineer to a 2017 internship, one scene per chapter.">
+<style>
+:root{color-scheme:dark;--bg:#010409;--panel:#0D1117;--line:#30363D;--fg:#E6EDF3;--muted:#8D96A0;--accent:#3FB950}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+main{max-width:900px;margin:0 auto;padding:24px 16px 40px}
+h1{font-size:15px;font-weight:700;margin:0 0 14px;color:var(--muted)}h1 b{color:var(--fg)}
+#tape svg{display:block;width:100%;height:auto}
+.remote{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+button{font:inherit;color:var(--fg);background:#161B22;border:1px solid var(--line);border-radius:8px;min-width:44px;height:40px;padding:0 12px;cursor:pointer}
+button:hover{border-color:var(--muted)}button:focus-visible,input:focus-visible{outline:2px solid #58A6FF;outline-offset:2px}
+#play{min-width:56px;background:var(--accent);color:#0D1117;border-color:var(--accent);font-weight:800}
+#clock{color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums}
+#scrub{width:100%;margin:12px 0 4px;accent-color:var(--accent)}
+#now{color:var(--fg);min-height:1.5em}
+.chips{margin-top:10px}.chips button{height:32px;font-size:12px;color:var(--muted)}
+.chips button[aria-current=true]{color:var(--fg);border-color:var(--accent)}
+.keys,footer{color:var(--muted);font-size:12px;margin-top:10px}
+a{color:#58A6FF}
+</style>
+</head>
+<body>
+<main>
+<h1><b>anjali --rewind</b> · my career on one tape, newest first</h1>
+<div id="tape"><svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title" aria-describedby="desc">
 <title id="title">anjali --rewind: my career, backtracked from now to where I started in 2017</title>
 <desc id="desc">$ anjali --rewind
 ◀◀ 2026–now · the agentic mentor · principal software engineer @ Great Learning
@@ -510,3 +543,102 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-spac
 <g class="a" style="animation-name:ph" transform="translate(770 0)"><path d="M-7 272h14l-7 9z" fill="#E6EDF3"/><line x1="0" x2="0" y1="281" y2="302" stroke="#E6EDF3" stroke-width="1.5" opacity=".7"/></g>
 </g>
 </svg>
+</div>
+<section class="remote" aria-label="Tape controls">
+<div class="row">
+<button id="prev" aria-label="Previous scene">⏮</button>
+<button id="back" aria-label="Back 5 seconds">◀◀</button>
+<button id="play" aria-label="Pause">❚❚</button>
+<button id="fwd" aria-label="Forward 5 seconds">▶▶</button>
+<button id="next" aria-label="Next scene">⏭</button>
+<span id="clock">0:00 / 0:00</span>
+</div>
+<input id="scrub" type="range" min="0" max="92650" step="100" value="0" aria-label="Position on the tape">
+<div id="now" aria-live="off"></div>
+<div class="row chips" role="group" aria-label="Jump to a scene">
+<button data-ch="0" aria-current="false" title="2026–now · the agentic mentor">mentor</button>
+<button data-ch="1" aria-current="false" title="2024–now · the AI teacher">AI teacher</button>
+<button data-ch="2" aria-current="false" title="2024–26 · the course-aware mentor">AI mentors</button>
+<button data-ch="3" aria-current="false" title="2024–26 · the prompt exam hall">prompt lab</button>
+<button data-ch="4" aria-current="false" title="2021–24 · coding labs in the cloud">coding labs</button>
+<button data-ch="5" aria-current="false" title="2021–24 · the MCQ-o-matic">MCQ bot</button>
+<button data-ch="6" aria-current="false" title="2020–21 · the LMS speed run">speed run</button>
+<button data-ch="7" aria-current="false" title="2019–20 · the great migration">migration</button>
+<button data-ch="8" aria-current="false" title="2018–19 · vehicles, tolls &#38; texts">vehicles</button>
+<button data-ch="9" aria-current="false" title="2017 · bug hunt, level 1">bug hunt</button>
+<button data-ch="10" aria-current="false" title="rewind complete">end</button>
+</div>
+<p class="keys">Keys: <b>space</b> play/pause · <b>← →</b> previous/next scene · <b>J L</b> 5 seconds back/forward</p>
+</section>
+<footer><a href="https://github.com/anjalichaudhary">GitHub profile</a> · <a href="https://www.linkedin.com/in/anjali-chaudhary">LinkedIn</a> · no trackers, no third-party scripts</footer>
+</main>
+<script>
+const D = 92650, FF = [81850, 84050], FF_TEXT = "▶▶ fast-forwarding back to now…", CH = [{"at":1850,"end":9850,"title":"2026–now · the agentic mentor"},{"at":9850,"end":17850,"title":"2024–now · the AI teacher"},{"at":17850,"end":25850,"title":"2024–26 · the course-aware mentor"},{"at":25850,"end":33850,"title":"2024–26 · the prompt exam hall"},{"at":33850,"end":41850,"title":"2021–24 · coding labs in the cloud"},{"at":41850,"end":49850,"title":"2021–24 · the MCQ-o-matic"},{"at":49850,"end":57850,"title":"2020–21 · the LMS speed run"},{"at":57850,"end":65850,"title":"2019–20 · the great migration"},{"at":65850,"end":73850,"title":"2018–19 · vehicles, tolls & texts"},{"at":73850,"end":81850,"title":"2017 · bug hunt, level 1"},{"at":84050,"end":92050,"title":"rewind complete"}];
+const svg = document.querySelector('#tape svg'), playBtn = document.getElementById('play');
+const scrub = document.getElementById('scrub'), clock = document.getElementById('clock'), now = document.getElementById('now');
+const chips = [...document.querySelectorAll('[data-ch]')];
+let anims = [], tape = [], playing = true;
+const t = () => (tape[0] ? tape[0].currentTime % D : 0);
+const fmt = (ms) => { const s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const chapterAt = (ms) => CH.reduce((c, ch, i) => (ms >= ch.at - 1 ? i : c), 0);
+function seek(ms) {
+  ms = ((ms % D) + D) % D;
+  for (const a of tape) a.currentTime = ms;
+  render();
+}
+function setPlaying(on) {
+  playing = on;
+  for (const a of anims) on ? a.play() : a.pause();
+  playBtn.textContent = on ? '❚❚' : '▶';
+  playBtn.setAttribute('aria-label', on ? 'Pause' : 'Play');
+  // Announce scene changes only when paused, not every few seconds during playback.
+  now.setAttribute('aria-live', on ? 'off' : 'polite');
+  if (on) requestAnimationFrame(loop);
+}
+// Playing: land at the start of the scene to watch it unfold. Paused: land where it is complete.
+function jump(i) {
+  const c = CH[(i + CH.length) % CH.length];
+  seek(playing ? c.at + 400 : c.end - 700);
+}
+function render() {
+  const ms = t(), i = chapterAt(ms);
+  const title = ms >= FF[0] && ms < FF[1] ? FF_TEXT : CH[i].title;
+  scrub.value = ms; clock.textContent = fmt(ms) + ' / ' + fmt(D);
+  scrub.setAttribute('aria-valuetext', fmt(ms) + ', ' + title);
+  if (now.textContent !== title) now.textContent = title;
+  if (now.dataset.i !== String(i)) {
+    now.dataset.i = i;
+    chips.forEach((c, j) => c.setAttribute('aria-current', j === i ? 'true' : 'false'));
+  }
+}
+function loop() { render(); if (playing) requestAnimationFrame(loop); }
+// Playing and 2s into a scene: restart it. Otherwise (or paused, where jumps land at the end): go back one.
+document.getElementById('prev').onclick = () => { const i = chapterAt(t()); jump(playing && t() - CH[i].at > 2000 ? i : i - 1); };
+document.getElementById('next').onclick = () => jump(chapterAt(t()) + 1);
+document.getElementById('back').onclick = () => seek(t() - 5000);
+document.getElementById('fwd').onclick = () => seek(t() + 5000);
+playBtn.onclick = () => setPlaying(!playing);
+scrub.oninput = () => seek(Number(scrub.value));
+chips.forEach((c) => (c.onclick = () => jump(Number(c.dataset.ch))));
+document.addEventListener('keydown', (e) => {
+  if (e.altKey || e.ctrlKey || e.metaKey) return;
+  const el = e.target instanceof Element ? e.target : null;
+  const k = e.key.toLowerCase();
+  if (el && el.closest('input')) return;
+  if (k === ' ' && el && el.closest('button')) return;
+  if (k === ' ' || k === 'k') { e.preventDefault(); setPlaying(!playing); }
+  else if (k === 'arrowleft') document.getElementById('prev').click();
+  else if (k === 'arrowright') document.getElementById('next').click();
+  else if (k === 'j') seek(t() - 5000);
+  else if (k === 'l') seek(t() + 5000);
+});
+// Take control: lift the tape's reduced-motion freeze, then respect the preference here instead.
+document.documentElement.classList.add('js-player');
+anims = svg.getAnimations({ subtree: true });
+tape = anims.filter((a) => Math.abs(a.effect.getTiming().duration - D) < 1);
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) { setPlaying(false); jump(0); }
+render();
+if (playing) requestAnimationFrame(loop);
+</script>
+</body>
+</html>

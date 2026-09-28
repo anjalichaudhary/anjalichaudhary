@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title">
+<title id="title">2020–21 · the LMS speed run. Got the LMS loading in 1.89s instead of 3.1s: JS and CSS now arrive only when they are actually needed. Also: video quizzes and a secure code runner.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+</style>
+<defs><clipPath id="screen"><rect x="1" y="36" width="858" height="299" rx="9"/></clipPath>
+<clipPath id="cardclip"><rect x="24" y="80" width="812" height="172" rx="10"/></clipPath>
+<clipPath id="stage"><rect width="288" height="152" rx="8"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="859" height="335" rx="10" fill="#0D1117" stroke="#30363D"/>
+<path d="M0.5 36V10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10V36z" fill="#161B22"/>
+<circle cx="20" cy="18" r="6" fill="#FF5F57"/><circle cx="40" cy="18" r="6" fill="#FEBC2E"/><circle cx="60" cy="18" r="6" fill="#28C840"/>
+<text x="430" y="22" text-anchor="middle" fill="#8D96A0" font-size="12px">anjali — career.vhs — zsh</text>
+<g clip-path="url(#screen)">
+<text x="24" y="62" font-size="13px" fill="#3FB950">anjali@profile:~$ </text><text x="164.94" y="62" font-size="13px" fill="#E6EDF3">anjali --rewind --scene 7</text>
+<text x="836" y="62" text-anchor="end" font-size="13px" font-weight="800" fill="#E6EDF3" letter-spacing="1">❚❚ PAUSED · 7/11</text>
+<rect x="24" y="80" width="812" height="172" rx="10" fill="#161B22" stroke="#30363D"/>
+<g clip-path="url(#cardclip)"><g opacity="1">
+<rect x="36" y="92" width="288" height="152" rx="8" fill="#3FB950" fill-opacity=".06" stroke="#3FB950" stroke-opacity=".25"/>
+<g transform="translate(36 92)" clip-path="url(#stage)">
+<text x="10" y="15" font-size="9.5px" fill="#3FB950" font-weight="700">▸ the LMS speed run</text>
+
+<rect x="8" y="24" width="150" height="96" rx="6" fill="#161B22" stroke="#E6EDF3" stroke-width="1.5"/>
+<path d="M8 38h150" stroke="#484F58"/><circle cx="17" cy="31" r="2.5" fill="#F85149"/><circle cx="25" cy="31" r="2.5" fill="#D29922"/><circle cx="33" cy="31" r="2.5" fill="#3FB950"/>
+<text x="44" y="34" font-size="8px" fill="#8D96A0">lms / my course</text>
+<rect x="18" y="48" width="120" height="7" rx="3.5" fill="#484F58"/><rect x="18" y="61" width="88" height="7" rx="3.5" fill="#484F58"/><rect x="18" y="74" width="108" height="7" rx="3.5" fill="#484F58"/><rect x="18" y="87" width="64" height="7" rx="3.5" fill="#484F58"/><rect x="18" y="100" width="96" height="7" rx="3.5" fill="#484F58"/>
+<circle cx="216" cy="56" r="26" fill="#161B22" stroke="#E6EDF3" stroke-width="2.5"/><rect x="210" y="24" width="12" height="6" rx="2" fill="#E6EDF3"/>
+<rect x="215" y="36" width="2" height="20" rx="1" fill="#3FB950"/><circle cx="216" cy="56" r="3" fill="#E6EDF3"/>
+<text x="216" y="102" font-size="13px" fill="#F85149" text-anchor="middle" font-weight="800" opacity="0">3.1s</text>
+<text x="216" y="102" font-size="13px" fill="#3FB950" text-anchor="middle" font-weight="800">1.89s</text>
+<path d="M170 146v-22M200 146v-22" stroke="#D29922" stroke-width="3" stroke-linecap="round"/><path d="M170 128q15 8 30 0" fill="none" stroke="#F85149" stroke-width="2.5"/>
+<g><rect x="210" y="130" width="22" height="16" rx="4" fill="#E6EDF3"/><text x="221" y="141.5" font-size="8.5px" fill="#0D1117" text-anchor="middle" font-weight="800">js</text></g><g><rect x="236" y="130" width="22" height="16" rx="4" fill="#E6EDF3"/><text x="247" y="141.5" font-size="8.5px" fill="#0D1117" text-anchor="middle" font-weight="800">css</text></g><g><rect x="262" y="130" width="22" height="16" rx="4" fill="#E6EDF3"/><text x="273" y="141.5" font-size="8.5px" fill="#0D1117" text-anchor="middle" font-weight="800">js</text></g>
+<text x="206" y="120" font-size="8px" fill="#8D96A0" text-anchor="middle">only when needed</text>
+</g>
+<text x="340" y="112" font-size="22px" font-weight="800" fill="#3FB950">2020–21</text>
+<text x="442.68" y="111" font-size="12px" fill="#8D96A0">@ Great Learning</text>
+<text x="340" y="136" font-size="15px" font-weight="700" fill="#E6EDF3">software development engineer</text>
+<text x="340" y="162" font-size="13px" fill="#E6EDF3">Got the LMS loading in 1.89s instead of 3.1s: JS and</text>
+<text x="340" y="182" font-size="13px" fill="#E6EDF3">CSS now arrive only when they are actually needed.</text>
+<text x="340" y="202" font-size="13px" fill="#E6EDF3">Also: video quizzes and a secure code runner.</text>
+<rect x="340" y="214" width="141.78" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="410.89" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">auth + API security</text><rect x="487.78" y="214" width="82.2" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="528.88" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">DB caching</text><rect x="575.98" y="214" width="194.74" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="673.35" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">auto-scaling code execution</text>
+</g></g>
+<line x1="90" x2="770" y1="292" y2="292" stroke="#30363D" stroke-width="3"/>
+<circle cx="90" cy="292" r="5" fill="#30363D"/><circle cx="203.33" cy="292" r="5" fill="#30363D"/><circle cx="316.67" cy="292" r="5" fill="#30363D"/><circle cx="430" cy="292" r="5" fill="#30363D"/><circle cx="543.33" cy="292" r="5" fill="#30363D"/><circle cx="656.67" cy="292" r="5" fill="#30363D"/><circle cx="770" cy="292" r="5" fill="#30363D"/>
+<circle cx="430" cy="292" r="7" fill="#3FB950"/>
+<text x="90" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2017</text><text x="203.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2018</text><text x="316.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2019</text><text x="430" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2020</text><text x="543.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2021</text><text x="656.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2024</text><text x="770" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">now</text>
+<g transform="translate(430 0)"><path d="M-7 272h14l-7 9z" fill="#E6EDF3"/><line x1="0" x2="0" y1="281" y2="302" stroke="#E6EDF3" stroke-width="1.5" opacity=".7"/></g>
+</g>
+</svg>

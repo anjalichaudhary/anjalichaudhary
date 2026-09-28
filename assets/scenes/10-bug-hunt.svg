@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title">
+<title id="title">2017 · bug hunt, level 1. Rails intern. Built a flights dashboard, back and front, and an API debugging tool that streamlined API debugging. Level 1: cleared.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+</style>
+<defs><clipPath id="screen"><rect x="1" y="36" width="858" height="299" rx="9"/></clipPath>
+<clipPath id="cardclip"><rect x="24" y="80" width="812" height="172" rx="10"/></clipPath>
+<clipPath id="stage"><rect width="288" height="152" rx="8"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="859" height="335" rx="10" fill="#0D1117" stroke="#30363D"/>
+<path d="M0.5 36V10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10V36z" fill="#161B22"/>
+<circle cx="20" cy="18" r="6" fill="#FF5F57"/><circle cx="40" cy="18" r="6" fill="#FEBC2E"/><circle cx="60" cy="18" r="6" fill="#28C840"/>
+<text x="430" y="22" text-anchor="middle" fill="#8D96A0" font-size="12px">anjali — career.vhs — zsh</text>
+<g clip-path="url(#screen)">
+<text x="24" y="62" font-size="13px" fill="#3FB950">anjali@profile:~$ </text><text x="164.94" y="62" font-size="13px" fill="#E6EDF3">anjali --rewind --scene 10</text>
+<text x="836" y="62" text-anchor="end" font-size="13px" font-weight="800" fill="#E6EDF3" letter-spacing="1">❚❚ PAUSED · 10/11</text>
+<rect x="24" y="80" width="812" height="172" rx="10" fill="#161B22" stroke="#30363D"/>
+<g clip-path="url(#cardclip)"><g opacity="1">
+<rect x="36" y="92" width="288" height="152" rx="8" fill="#3FB950" fill-opacity=".06" stroke="#3FB950" stroke-opacity=".25"/>
+<g transform="translate(36 92)" clip-path="url(#stage)">
+<text x="10" y="15" font-size="9.5px" fill="#3FB950" font-weight="700">▸ bug hunt, level 1</text>
+
+<rect x="8" y="24" width="172" height="66" rx="4" fill="#0B0F14" stroke="#484F58"/>
+<text x="16" y="37" font-size="8px" fill="#8D96A0" font-weight="800">DEPARTURES</text>
+<text x="16" y="54" font-size="9px" fill="#E6EDF3">BLR → DEL</text><text x="172" y="54" font-size="9px" fill="#3FB950" text-anchor="end" font-weight="700">ON TIME</text><text x="16" y="68" font-size="9px" fill="#E6EDF3">BOM → GOI</text><text x="172" y="68" font-size="9px" fill="#D29922" text-anchor="end" font-weight="700">BOARDING</text><text x="16" y="82" font-size="9px" fill="#E6EDF3">DEL → CCU</text><text x="172" y="82" font-size="9px" fill="#F85149" text-anchor="end" font-weight="700">DELAYED</text>
+<text x="190" y="44" font-size="8.5px" fill="#8D96A0">← my flights</text><text x="190" y="56" font-size="8.5px" fill="#8D96A0">  dashboard</text>
+<text x="12" y="106" font-size="9px" fill="#E6EDF3">GET /flights</text>
+<rect x="8" y="112" width="272" height="16" rx="8" fill="#21262D"/>
+<text x="280" y="106" font-size="9.5px" fill="#F85149" text-anchor="end" font-weight="800" opacity="0">500</text>
+<text x="280" y="106" font-size="9.5px" fill="#3FB950" text-anchor="end" font-weight="800">200 OK</text>
+<g opacity="0"><ellipse cx="150" cy="120" rx="6" ry="4.5" fill="#F85149"/><path d="M146 115l-3-3M154 115l3-3M146 125l-3 3M154 125l3 3" stroke="#F85149" stroke-width="1.5"/></g>
+<g><circle cx="150" cy="120" r="12" fill="#3FB950" fill-opacity=".15" stroke="#3FB950" stroke-width="3"/><path d="M159 129l9 9" stroke="#3FB950" stroke-width="4" stroke-linecap="round"/></g>
+<text x="150" y="148" font-size="8.5px" fill="#3FB950" text-anchor="middle">caught by my API debugger</text>
+</g>
+<text x="340" y="112" font-size="22px" font-weight="800" fill="#3FB950">2017</text>
+<text x="402.96" y="111" font-size="12px" fill="#8D96A0">@ Goomo</text>
+<text x="340" y="136" font-size="15px" font-weight="700" fill="#E6EDF3">software engineer intern</text>
+<text x="340" y="162" font-size="13px" fill="#E6EDF3">Rails intern. Built a flights dashboard, back and front,</text>
+<text x="340" y="182" font-size="13px" fill="#E6EDF3">and an API debugging tool that streamlined API debugging.</text>
+<text x="340" y="202" font-size="13px" fill="#E6EDF3">Level 1: cleared.</text>
+<rect x="340" y="214" width="102.06" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="391.03" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">Ruby on Rails</text><rect x="448.06" y="214" width="128.54" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="512.33" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">flights dashboard</text><rect x="582.6" y="214" width="95.44" height="20" rx="10" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".5"/><text x="630.32" y="228" text-anchor="middle" font-size="11px" fill="#3FB950">API debugger</text>
+</g></g>
+<line x1="90" x2="770" y1="292" y2="292" stroke="#30363D" stroke-width="3"/>
+<circle cx="90" cy="292" r="5" fill="#30363D"/><circle cx="203.33" cy="292" r="5" fill="#30363D"/><circle cx="316.67" cy="292" r="5" fill="#30363D"/><circle cx="430" cy="292" r="5" fill="#30363D"/><circle cx="543.33" cy="292" r="5" fill="#30363D"/><circle cx="656.67" cy="292" r="5" fill="#30363D"/><circle cx="770" cy="292" r="5" fill="#30363D"/>
+<circle cx="90" cy="292" r="7" fill="#3FB950"/>
+<text x="90" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2017</text><text x="203.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2018</text><text x="316.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2019</text><text x="430" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2020</text><text x="543.33" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2021</text><text x="656.67" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">2024</text><text x="770" y="318" text-anchor="middle" font-size="11px" fill="#8D96A0">now</text>
+<g transform="translate(90 0)"><path d="M-7 272h14l-7 9z" fill="#E6EDF3"/><line x1="0" x2="0" y1="281" y2="302" stroke="#E6EDF3" stroke-width="1.5" opacity=".7"/></g>
+</g>
+</svg>

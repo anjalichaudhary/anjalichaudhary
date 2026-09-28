@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { test } from 'node:test';
-import { CARD_RIGHT, CHAR, FINALE, renderStill, renderStory, sceneMenu, SCENES, STILL_COUNT, stillFile, TEXT_X, timeline, transcript } from './render-story.mjs';
+import { CARD_RIGHT, CHAR, FINALE, REDUCED_MOTION_CSS, renderStill, renderStory, sceneMenu, SCENES, STILL_COUNT, stillFile, TEXT_X, timeline, transcript } from './render-story.mjs';
 
 const all = [...SCENES, FINALE];
 
@@ -11,14 +11,21 @@ test('the tape rewinds newest first, back to where I started', () => {
   assert.equal(SCENES.at(-1).years, '2017');
 });
 
-test('every role title, line and row of pills fits on its card', () => {
+test('every heading, line and row of pills fits in the text column', () => {
+  const fits = (x, what) => assert.ok(x <= CARD_RIGHT, `too wide: ${what}`);
   for (const s of all) {
-    const yearW = [...s.years].length * CHAR.year;
-    assert.ok(TEXT_X + [...s.role].length * CHAR.role <= CARD_RIGHT - yearW - 16, `role too long: ${s.role}`);
-    for (const l of s.lines) assert.ok(TEXT_X + [...l].length * CHAR.line <= CARD_RIGHT, `line too long: ${l}`);
-    const pillsW = s.pills.reduce((w, p) => w + [...p].length * CHAR.pill + 28, -8);
-    assert.ok(TEXT_X + pillsW <= CARD_RIGHT, `pills too wide: ${s.pills.join(', ')}`);
+    fits(TEXT_X + [...s.years].length * CHAR.year + 10 + [...(s.company ? `@ ${s.company}` : '')].length * CHAR.company, `${s.years} @ ${s.company}`);
+    fits(TEXT_X + [...s.role].length * CHAR.role, s.role);
+    assert.ok(s.lines.length <= 3, `too many lines: ${s.title}`);
+    for (const l of s.lines) fits(TEXT_X + [...l].length * CHAR.line, l);
+    fits(TEXT_X + s.pills.reduce((w, p) => w + [...p].length * CHAR.pill + 22, -6), s.pills.join(', '));
   }
+});
+
+test('every scene has its own stage and a unique chapter name', () => {
+  assert.equal(new Set(all.map((s) => s.art)).size, all.length);
+  assert.equal(new Set(all.map((s) => s.chip)).size, all.length);
+  assert.doesNotThrow(() => renderStory());
 });
 
 test('each scene gets its own window, in order, inside the loop', () => {
@@ -30,11 +37,13 @@ test('each scene gets its own window, in order, inside the loop', () => {
   for (const pct of svg.matchAll(/(\d+(?:\.\d+)?)%\{/g)) assert.ok(Number(pct[1]) <= 100, `keyframe past 100%: ${pct[1]}`);
 });
 
-test('reduced motion stops every animation and shows the current role', () => {
+test('reduced motion stops every animation and shows the first scene, with only its station lit', () => {
   const svg = renderStory();
-  assert.match(svg, /@media \(prefers-reduced-motion:reduce\)\{\.a,\.i,\.vhs,\.blinkosd\{animation:none!important\}/);
+  assert.ok(svg.includes(REDUCED_MOTION_CSS));
+  assert.match(REDUCED_MOTION_CSS, /:root:not\(\.js-player\) \.a,.*\{animation:none!important\}/);
   assert.match(svg, /animation-name:s0" opacity="1"/);
   assert.equal(svg.match(/animation-name:s\d+" opacity="1"/g).length, 1);
+  assert.equal(svg.match(/animation-name:st\d+"[^>]*opacity="1"/g).length, 1);
 });
 
 test('the README carries the same story as plain text', () => {
@@ -46,6 +55,7 @@ test('story text is escaped and the output is deterministic', () => {
   const evil = [{ ...SCENES[0], role: '<script>alert(1)</script>', lines: ['"&"'] }];
   const svg = renderStory(evil);
   assert.doesNotMatch(svg, /<script>/);
+  assert.doesNotMatch(svg, /NaN|Infinity/, 'a one-era tape must still have real positions');
   assert.match(svg, /&#60;script&#62;/);
   assert.equal(renderStory(), renderStory());
 });
@@ -64,4 +74,10 @@ test('every scene has a paused still with no animation, numbered for navigation'
 test('the README has the scene selection for every still', () => {
   const readme = readFileSync(new URL('../README.md', import.meta.url), 'utf8');
   assert.ok(readme.includes(sceneMenu()), 'README scene selection is out of date; paste sceneMenu() into it');
+});
+
+test('assets/scenes holds exactly the stills the script makes, so none go stale', () => {
+  const onDisk = readdirSync(new URL('../assets/scenes/', import.meta.url)).filter((f) => f.endsWith('.svg')).sort();
+  const expected = Array.from({ length: STILL_COUNT }, (_, i) => stillFile(i).split('/').pop()).sort();
+  assert.deepEqual(onDisk, expected);
 });
