@@ -1,100 +1,132 @@
 <h1 align="center">Anjali Chaudhary</h1>
 
 <p align="center">
-  <b>Full-Stack Engineer × AI Agent Builder</b> &nbsp;•&nbsp; 8+ years shipping production software
+  <b>Principal Software Engineer at Great Learning</b><br/>
+  AI-powered learning systems and scalable assessment platforms &nbsp;·&nbsp; 8+ years, from a Rails internship to principal
 </p>
 
 <p align="center">
-  <a href="https://github.com/anjalichaudhary">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=520&height=45&color=36BCF7&lines=I+build+AI+agents+that+teach.;Frontier+LLMs+%E2%86%92+products+people+learn+from.;Clean%2C+scalable+systems+by+default.;Full-stack+depth%2C+AI-native+ambition." />
-  </a>
+  <a href="https://www.linkedin.com/in/anjali-chaudhary"><img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=flat-square&logo=linkedin-white&logoColor=white"></a>
+  <a href="https://github.com/anjalichaudhary/anjalichaudhary/actions/workflows/readme.yml"><img alt="This README is tested daily" src="https://github.com/anjalichaudhary/anjalichaudhary/actions/workflows/readme.yml/badge.svg"></a>
 </p>
 
+<!-- Uncomment once anjalichaudhary.com stops redirecting to itself.
+<p align="center">
+  <a href="https://anjalichaudhary.com"><img alt="Website" src="https://img.shields.io/badge/anjalichaudhary.com-191919.svg?style=flat-square&logo=googlechrome&logoColor=white"></a>
+</p>
+-->
+
+<p align="center">
+  <img alt="An animated terminal plays anjali --rewind: a VHS playhead backtracks my career from principal engineer today to my 2017 internship, one scene per role, then fast-forwards back to now. The full text is below." src="assets/story.svg" width="860">
+</p>
+
+### ❚❚ Scene selection
+
+GitHub can't pause an image, so here is every scene, paused. Open any chapter and read at your own pace.
+
+<!-- scenes:start -->
+<details>
+<summary><b>2026–now</b> · principal software engineer @ Great Learning</summary>
 <br/>
-
-## 🚀 What I Do
-
-I turn frontier AI into products people actually use. After 8+ years building and scaling full-stack
-systems, I now architect **autonomous agents and agentic workflows** — the kind that don't just answer
-questions, but mentor, reason, and act.
-
-- 🤖 **Building AI-native products.** I design and ship LLM-powered agents and the orchestration around them — tool use, multi-step reasoning, and the unglamorous plumbing that makes them reliable in production.
-- 🧠 **Teaching machines to mentor.** Currently architecting agentic systems for e-learning — AI that adapts to how people actually learn.
-- ⚡ **End-to-end ownership.** From data model to UI, I own features all the way through. I think in systems, not snippets.
-- 🎯 **Quality is non-negotiable.** Clean, efficient, well-tested, scalable code isn't aspirational — it's the baseline.
-- 🌱 **Relentlessly leveling up.** DS&A, distributed systems, and the fast-moving AI stack — always sharpening.
-
-> _The best code is the code that ships, scales, and the next engineer thanks you for._
-
+<img alt="2026–now · principal software engineer @ Great Learning. Newest chapter. The LinkedIn description is still loading… Six and a half years at Great Learning, and counting. Apr 2026 – present · role 7 of 7" src="assets/scenes/01-now.svg" width="860">
+</details>
+<details>
+<summary><b>2024–26</b> · lead software engineer @ Great Learning</summary>
 <br/>
-
-## 🛠️ Tech I Build With
-
-**AI Engineering**
-
-<p>
-  <a href="#"><img alt="Agentic AI" src="https://img.shields.io/badge/Agentic%20AI-191919.svg?logo=probot&logoColor=white"></a>
-  <a href="#"><img alt="LLM Agents" src="https://img.shields.io/badge/LLM%20Agents-5A45FF.svg?logo=openai&logoColor=white"></a>
-  <a href="#"><img alt="Agentic Workflows" src="https://img.shields.io/badge/Agentic%20Workflows-0B6E4F.svg?logo=buffer&logoColor=white"></a>
-  <a href="#"><img alt="RAG" src="https://img.shields.io/badge/RAG-FF6F00.svg?logo=databricks&logoColor=white"></a>
-  <a href="#"><img alt="Prompt Engineering" src="https://img.shields.io/badge/Prompt%20Engineering-8E44AD.svg?logo=protondrive&logoColor=white"></a>
-</p>
-
-**Languages**
-
-<p>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Atypescript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Apython"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Ajava"><img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Asql"><img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Abash"><img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
-  <a href="https://github.com/search?q=user%3Aanjalichaudhary+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
-</p>
-
-**Backend & Frameworks**
-
-<p>
-  <a href="#"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white"></a>
-  <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-404d59.svg?logo=express&logoColor=white"></a>
-  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a>
-  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white"></a>
-</p>
-
-**Data & Cloud**
-
-<p>
-  <a href="#"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192.svg?logo=postgresql&logoColor=white"></a>
-  <a href="#"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4ea94b.svg?logo=mongodb&logoColor=white"></a>
-  <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white"></a>
-  <a href="#"><img alt="Oracle" src="https://img.shields.io/badge/Oracle-F00000.svg?logo=oracle&logoColor=white"></a>
-  <a href="#"><img alt="SQLite" src="https://img.shields.io/badge/SQLite-07405e.svg?logo=sqlite&logoColor=white"></a>
-  <a href="https://aws.amazon.com/"><img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900.svg?logo=amazon-aws&logoColor=white"></a>
-  <a href="#"><img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098.svg?logo=heroku&logoColor=white"></a>
-</p>
-
+<img alt="2024–26 · lead software engineer @ Great Learning. Built AI mentors that read the course, the subtitles and the assignment before answering. Negative feedback: −36% across 100K+ interactions. prompt evaluation system · video → structured JSON" src="assets/scenes/02-2024.svg" width="860">
+</details>
+<details>
+<summary><b>2021–24</b> · senior SDE @ Great Learning</summary>
 <br/>
+<img alt="2021–24 · senior SDE @ Great Learning. Coding labs for 5K+ learners at once. 90%+ of 3rd-party tools: retired. An AI MCQ writer: 4.6K+ questions, over half accepted. Beats my drafts. boot time −40% · AI code feedback × 4 languages · 200+ cohorts" src="assets/scenes/03-2021.svg" width="860">
+</details>
+<details>
+<summary><b>2020–21</b> · SDE @ Great Learning</summary>
+<br/>
+<img alt="2020–21 · SDE @ Great Learning. LMS load time 3.1s → 1.89s, just by loading JS and CSS on demand. Plus a secure code runner, video quizzes, and a lock on internal APIs. auto-scaling code execution · API security layer · DB caching" src="assets/scenes/04-2020.svg" width="860">
+</details>
+<details>
+<summary><b>2019–20</b> · SDE @ Applied AI Course</summary>
+<br/>
+<img alt="2019–20 · SDE @ Applied AI Course. Core backend dev, from requirements to deploy: Django, Nginx, Fargate. Moved 1000s of users off Google Classroom. Evaluation: 75% faster. Django REST · PostgreSQL · RDS + ELB" src="assets/scenes/05-2019.svg" width="860">
+</details>
+<details>
+<summary><b>2018–19</b> · SDE @ Goomo</summary>
+<br/>
+<img alt="2018–19 · SDE @ Goomo. Full-stack on a B2B vehicle marketplace. Redis-cached popular prices: APIs ~50% faster. Vendors, drivers and buyers now talk by SMS and email. Java · Angular · road-toll automation" src="assets/scenes/06-2018.svg" width="860">
+</details>
+<details>
+<summary><b>2017</b> · software engineer intern @ Goomo</summary>
+<br/>
+<img alt="2017 · software engineer intern @ Goomo. Rails intern. Built a flights dashboard, then an API debugging tool, so debugging APIs stopped being a manual sport. Ruby on Rails · backend + frontend" src="assets/scenes/07-2017.svg" width="860">
+</details>
+<details>
+<summary><b>now</b> · rewind complete</summary>
+<br/>
+<img alt="now · rewind complete. 7 roles · 3 companies · 2017 → now, all on one tape. Be kind, rewind. Or say hi on LinkedIn. linkedin.com/in/anjali-chaudhary" src="assets/scenes/08-rewind-complete.svg" width="860">
+</details>
+<!-- scenes:end -->
 
-## 📊 GitHub in Numbers
+<details>
+<summary>Read the tape as text</summary>
 
-<p align="center">
-  <a href="https://github.com/anjalichaudhary">
-    <img alt="Anjali's GitHub stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=anjalichaudhary&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="180px"/>
-  </a>
-  <a href="https://github.com/anjalichaudhary">
-    <img alt="Anjali's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=anjalichaudhary&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="180px"/>
-  </a>
-</p>
+```text
+$ anjali --rewind
+◀◀ 2026–now · principal software engineer @ Great Learning
+   Newest chapter. The LinkedIn description is still loading…
+   Six and a half years at Great Learning, and counting.
+   [Apr 2026 – present] [role 7 of 7]
+◀◀ 2024–26 · lead software engineer @ Great Learning
+   Built AI mentors that read the course, the subtitles and the assignment
+   before answering. Negative feedback: −36% across 100K+ interactions.
+   [prompt evaluation system] [video → structured JSON]
+◀◀ 2021–24 · senior SDE @ Great Learning
+   Coding labs for 5K+ learners at once. 90%+ of 3rd-party tools: retired.
+   An AI MCQ writer: 4.6K+ questions, over half accepted. Beats my drafts.
+   [boot time −40%] [AI code feedback × 4 languages] [200+ cohorts]
+◀◀ 2020–21 · SDE @ Great Learning
+   LMS load time 3.1s → 1.89s, just by loading JS and CSS on demand.
+   Plus a secure code runner, video quizzes, and a lock on internal APIs.
+   [auto-scaling code execution] [API security layer] [DB caching]
+◀◀ 2019–20 · SDE @ Applied AI Course
+   Core backend dev, from requirements to deploy: Django, Nginx, Fargate.
+   Moved 1000s of users off Google Classroom. Evaluation: 75% faster.
+   [Django REST] [PostgreSQL] [RDS + ELB]
+◀◀ 2018–19 · SDE @ Goomo
+   Full-stack on a B2B vehicle marketplace. Redis-cached popular prices:
+   APIs ~50% faster. Vendors, drivers and buyers now talk by SMS and email.
+   [Java] [Angular] [road-toll automation]
+◀◀ 2017 · software engineer intern @ Goomo
+   Rails intern. Built a flights dashboard, then an API debugging tool,
+   so debugging APIs stopped being a manual sport.
+   [Ruby on Rails] [backend + frontend]
+▶▶ fast-forwarding back to now…
+▶  now · rewind complete
+   7 roles · 3 companies · 2017 → now, all on one tape.
+   Be kind, rewind. Or say hi on LinkedIn.
+   [linkedin.com/in/anjali-chaudhary]
+```
 
-<p align="center">
-  <a href="https://github.com/anjalichaudhary">
-    <img alt="Anjali's streak" src="https://streak-stats.demolab.com/?user=anjalichaudhary&theme=react&hide_border=true"/>
-  </a>
-</p>
+</details>
 
-<p align="center">
-  <img alt="Anjali's contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=anjalichaudhary&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" />
-</p>
+## How I work
 
-<p align="center"><sub>Top languages reflect my public code only — not the full scope of what I build.</sub></p>
+- **Evals, not vibes.** An AI behaviour is a rate over many runs, not one good demo.
+- **Least privilege for AI.** An agent gets only the tools and arguments it actually needs.
+- **Reproduce before fix.** Show it broken without the change and fixed with it.
+- **Boring architecture.** Simple systems the next engineer can own and debug.
+- **Claims need evidence.** Every number I report traces back to a query, a log, or a line of code.
+
+## Stack
+
+| | |
+|---|---|
+| **AI** | ![Claude](https://img.shields.io/badge/Claude-D97757.svg?style=flat-square&logo=anthropic&logoColor=white) ![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991.svg?style=flat-square&logo=openai&logoColor=white) ![Vercel AI SDK](https://img.shields.io/badge/AI%20SDK-000000.svg?style=flat-square&logo=vercel&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-191919.svg?style=flat-square&logo=modelcontextprotocol&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7.svg?style=flat-square&logo=opentelemetry&logoColor=white) |
+| **Backend** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E.svg?style=flat-square&logo=nodedotjs&logoColor=white) ![Fastify](https://img.shields.io/badge/Fastify-000000.svg?style=flat-square&logo=fastify&logoColor=white) ![Express](https://img.shields.io/badge/Express-404D59.svg?style=flat-square&logo=express&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1.svg?style=flat-square&logo=zod&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396.svg?style=flat-square&logo=openjdk&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20.svg?style=flat-square&logo=django&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Rails-D30001.svg?style=flat-square&logo=rubyonrails&logoColor=white) |
+| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=flat-square&logo=postgresql&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F.svg?style=flat-square&logo=drizzle&logoColor=black) ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=flat-square&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=flat-square&logo=mongodb&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571.svg?style=flat-square&logo=elasticsearch&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A.svg?style=flat-square&logo=react&logoColor=61DAFB) ![MUI](https://img.shields.io/badge/MUI-007FFF.svg?style=flat-square&logo=mui&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=flat-square&logo=vite&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154.svg?style=flat-square&logo=reactquery&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031.svg?style=flat-square&logo=angular&logoColor=white) |
+| **Infra** | ![AWS](https://custom-icon-badges.demolab.com/badge/AWS-232F3E.svg?style=flat-square&logo=aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=flat-square&logo=docker&logoColor=white) ![pnpm](https://img.shields.io/badge/pnpm-F69220.svg?style=flat-square&logo=pnpm&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18.svg?style=flat-square&logo=vitest&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-121011.svg?style=flat-square&logo=gnubash&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639.svg?style=flat-square&logo=nginx&logoColor=white) |
+
+---
+
+<p align="center"><sub>This page tests itself: a read-only workflow checks every link and badge daily and verifies the animation matches <a href="scripts/render-story.mjs">its source</a>. No third-party scripts, no tokens with write access.</sub></p>
